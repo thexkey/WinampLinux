@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Winamp 5.8
+Exec=bash wapath/launcher/launcher.sh
+Type=Application
+StartupNotify=true
+Comment=Winamp 5.8 for Linux
+Icon=winampicon
+StartupWMClass=winamp.exe
+Name[fr_FR]=Winamp
+
+
+
