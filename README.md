@@ -34,7 +34,15 @@ sudo apt-get install wine winetricks md5sum
 ## :computer: Installation
 The installer script will create a new WINE virtual drive and will install to USERNAME/.WinampLinux
 
-just click on Next on every prompt and do not check mark "Install Winamp Agent" 
+Download the script using 
+```
+git clone https://github.com/samdisk11/WinampLinux.git
+```
+and navigate to the folder,
+ 
+then run setup.sh and run the installer.
+
+once the Winamp Installer Window shows up, just click on Next on every prompt and do not check mark "Install Winamp Agent". 
 
 
 
