@@ -1,6 +1,6 @@
 <div align="center" class="tip" markdown="1" style>
 
-![wine version](https://img.shields.io/badge/wine-5.22-red) ![winamp version](https://img.shields.io/badge/Winamp-5.8-orange) ![Tested on Ubuntu](https://img.shields.io/badge/Tested%20on-Ubuntu%2020.04%20LTS-orange)![rep size](https://img.shields.io/github/repo-size/samdisk11/WinampLinux)
+![wine version](https://img.shields.io/badge/wine-6.0-red) ![winamp version](https://img.shields.io/badge/Winamp-5.8-orange) ![Tested on Ubuntu](https://img.shields.io/badge/Tested%20on-Ubuntu%2020.04%20LTS-orange)![rep size](https://img.shields.io/github/repo-size/samdisk11/WinampLinux)
 </div>
 
 
