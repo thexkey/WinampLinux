@@ -4,6 +4,8 @@
 </div>
 
 
+# WARNING: the winamp installer crashes after pressing NEXT, i have no idea how to fix it /shrug
+code based off of https://github.com/Gictorbit/photoshopCClinux/
 # Winamp 5.80 installer for Linux
 This bash script helps you install Winamp 5.8 and it's libraries on your Linux machine using WINE automatically.
 
