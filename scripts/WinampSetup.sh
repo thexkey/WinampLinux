@@ -26,7 +26,7 @@ function main() {
     
     #config wine prefix and install mono and gecko automatic
     echo -e "\033[1;93mplease install gecko package BUT DO NOT INSTALL MONO, then click on OK button\e[0m"
-    winecfg 2> "$SCR_PATH/wine-error.log"
+    WINEARCH=win32 winecfg 2> "$SCR_PATH/wine-error.log"
     if [ $? -eq 0 ];then
         show_message "prefix configured..."
         sleep 5
@@ -78,7 +78,7 @@ function install_Winamp() {
     show_message "installing Winamp from internet..."
     show_message "\033[1;33mPlease don't change the default Destination Folder\e[0m"
 
-    wine "$CACHE_PATH/winamp58_3660_beta_full_en-us.exe" &>> "$SCR_PATH/wine-error.log" || error "something went wrong during Winamp installation"
+    WINEARCH=win32 wine "$CACHE_PATH/winamp58_3660_beta_full_en-us.exe" &>> "$SCR_PATH/wine-error.log" || error "something went wrong during Winamp installation"
     
   
 

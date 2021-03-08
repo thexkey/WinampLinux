@@ -88,7 +88,7 @@ function launcher() {
         
         cp "$launcher_path" "$launcher_dest" || error "can't copy launcher"
         
-        sed -i "s|pspath|$SCR_PATH|g" "$launcher_dest/launcher.sh" && sed -i "s|pscache|$CACHE_PATH|g" "$launcher_dest/launcher.sh" || error "can't edit launcher script"
+        sed -i "s|wapath|$SCR_PATH|g" "$launcher_dest/launcher.sh" && sed -i "s|wacache|$CACHE_PATH|g" "$launcher_dest/launcher.sh" || error "can't edit launcher script"
         
         chmod +x "$SCR_PATH/launcher/launcher.sh" || error "can't chmod launcher script"
     else
@@ -108,7 +108,7 @@ function launcher() {
             rm "$desktop_entry_dest"
         fi
         cp "$desktop_entry" "$desktop_entry_dest" || error "can't copy desktop entry"
-        sed -i "s|pspath|$SCR_PATH|g" "$desktop_entry_dest" || error "can't edit desktop entry"
+        sed -i "s|wapath|$SCR_PATH|g" "$desktop_entry_dest" || error "can't edit desktop entry"
     else
         error "desktop entry Not Found"
     fi

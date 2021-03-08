@@ -15,7 +15,7 @@ main() {
         exit 0
     fi
     
-    #remove photoshop directory
+    #remove winamp directory
     if [ -d "$SCR_PATH" ];then
         echo "remove winamp directory..."
         rm -r "$SCR_PATH" || error2 "couldn't remove winamp directory"
