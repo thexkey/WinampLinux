@@ -21,12 +21,12 @@ This bash script helps you install Winamp 5.8 and it's libraries on your Linux m
 2-make sure the following packages are already installed on your Linux distro
 * `wine` (make sure it is up to date)
 * `winetricks`
-* `md5sum`
+* `coreutils`
 
 
 if they are not already installed you can install them using this example command for Ubuntu.
 ```
-sudo apt-get install wine winetricks md5sum
+sudo apt-get install wine winetricks coreutils
 ``` 
 
 4- make sure you have an internet connection and about 200 MB of disk space for Winamp (and its prerequisites)
